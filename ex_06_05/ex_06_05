@@ -1,0 +1,11 @@
+text = "X-DSPAM-Confidence:    0.8475"
+count = 0
+for letter in text:
+  if letter == " ":
+    count = count + 1
+#print(count)
+atpos = text.find("0")
+#print(atpos)
+answer = text[23:]
+float(answer)
+print(answer)
